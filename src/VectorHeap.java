@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class VectorHeap<E extends Comparable<E>>{
+public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>{
 
     protected Vector<E> data; // the data, kept in heap order
 
@@ -66,6 +66,21 @@ public class VectorHeap<E extends Comparable<E>>{
         percolateUp(data.size()-1);
     }
 
+    @Override
+    public boolean isEmpty() {
+        return data.isEmpty();
+    }
+
+    @Override
+    public int size() {
+        return data.size();
+    }
+
+    @Override
+    public void clear() {
+        data = new Vector<>();
+    }
+
     protected void pushDownRoot(int root)
     // pre: 0 <= root < size
     // post: moves node at index root down
@@ -111,7 +126,7 @@ public class VectorHeap<E extends Comparable<E>>{
         return minVal;
     }
 
-    private E getFirst(){
+    public E getFirst(){
         return data.firstElement();
     }
 }
