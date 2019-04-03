@@ -1,14 +1,22 @@
+/**
+ * Clase Maim.
+ * Clase encargada de la interacción con el usuario. Lee el archivo de texto.
+ *
+ * @author Marco Fuentes y Abril Palencia
+ * @since 02/04/2019
+ */
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class Main {
+public class Maim {
     public static void main (String args[]){
         try{
             VectorHeap<Paciente> queue = new VectorHeap<>();
-
+    // leer el archivo de texto que contiene a los pacientes
             String sCadena;
             BufferedReader bf = new BufferedReader(new FileReader("pacientes.txt"));
             while ((sCadena = bf.readLine())!=null) {
@@ -17,9 +25,9 @@ public class Main {
             }
 
             String menu = "             Hospital \n" +
-                          " 1. Ver el siguiente paciente en la sala de espera\n" +
-                          " 2. Agregar un nuevo paciente \n" +
-                          " 3. Cerrar por hoy";
+                    " 1. Ver el siguiente paciente en la sala de espera\n" +
+                    " 2. Agregar un nuevo paciente \n" +
+                    " 3. Cerrar por hoy";
             String respuesta ="";
             while (!respuesta.equals("3")){
                 System.out.println(menu);
