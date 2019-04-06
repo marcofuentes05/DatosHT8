@@ -1,3 +1,4 @@
+
 /**
  * Clase Maim.
  * Clase encargada de la interacción con el usuario. Lee el archivo de texto.
