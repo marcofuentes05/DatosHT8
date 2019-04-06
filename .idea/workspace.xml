@@ -4,7 +4,11 @@
     <list default="true" id="3714f057-b076-4f8b-97b7-85558cb4eb6f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DatosHT8/META-INF/DatosHT8.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatosHT8/META-INF/DatosHT8.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Maim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VectorHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VectorHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VectorHeap_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VectorHeap_1Test.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,67 +17,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1740867613">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="383" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="383" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VectorHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1574">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VectorHeap_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Maim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="1438">
+              <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
               <folding>
+                <element signature="e#0#4470#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -126,14 +87,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/pacientes.txt" />
         <option value="$PROJECT_DIR$/pacientes.txt" />
-        <option value="$PROJECT_DIR$/src/VectorHeap.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/VectorHeapTest.java" />
         <option value="$PROJECT_DIR$/src/Paciente.java" />
         <option value="$PROJECT_DIR$/src/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/VectorHeap_1.java" />
-        <option value="$PROJECT_DIR$/src/Maim.java" />
         <option value="$PROJECT_DIR$/src/VectorHeap_1Test.java" />
+        <option value="$PROJECT_DIR$/src/Maim.java" />
+        <option value="$PROJECT_DIR$/src/VectorHeap.java" />
       </list>
     </option>
   </component>
@@ -148,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,13 +125,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554514729366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554518715564" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -198,7 +159,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VectorHeap_1Test.clear">
+  <component name="RunManager" selected="Application.Maim">
+    <configuration name="Maim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maim" />
+      <module name="DatosHT8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VectorHeap_1Test.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DatosHT8" />
       <option name="PACKAGE_NAME" value="" />
@@ -239,30 +207,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorHeap_1Test.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DatosHT8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorHeap_1Test" />
-      <option name="METHOD_NAME" value="size" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.VectorHeap_1Test.size" />
       <item itemvalue="JUnit.VectorHeap_1Test.getFirst" />
       <item itemvalue="JUnit.VectorHeap_1Test.add" />
       <item itemvalue="JUnit.VectorHeap_1Test.remove" />
       <item itemvalue="JUnit.VectorHeap_1Test.clear" />
+      <item itemvalue="Application.Maim" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maim" />
         <item itemvalue="JUnit.VectorHeap_1Test.clear" />
         <item itemvalue="JUnit.VectorHeap_1Test.remove" />
         <item itemvalue="JUnit.VectorHeap_1Test.add" />
         <item itemvalue="JUnit.VectorHeap_1Test.getFirst" />
-        <item itemvalue="JUnit.VectorHeap_1Test.size" />
       </list>
     </recent_temporary>
   </component>
@@ -302,9 +260,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VectorHeap_1Test_isEmpty - 2019.04.05 at 19h 21m 30s.xml">
-      <configuration name="VectorHeap_1Test.isEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VectorHeap_1Test_isEmpty - 2019.04.05 at 19h 22m 43s.xml">
       <configuration name="VectorHeap_1Test.isEmpty" configurationId="JUnit" />
     </history-entry>
@@ -332,12 +287,15 @@
     <history-entry file="VectorHeap_1Test_clear - 2019.04.05 at 19h 36m 32s.xml">
       <configuration name="VectorHeap_1Test.clear" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VectorHeap_1Test_clear - 2019.04.05 at 20h 39m 45s.xml">
+      <configuration name="VectorHeap_1Test.clear" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -346,7 +304,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47846153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,9 +357,6 @@
       <window_info anchor="right" id="Maven" order="8" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaDoc" />
     <MESSAGE value="La otra versión." />
@@ -412,6 +367,16 @@
     <entry file="file://$PROJECT_DIR$/src/pacientes.txt" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/VectorHeapTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/VectorHeap_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pacientes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -435,35 +400,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VectorHeap_1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VectorHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1574">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VectorHeap_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Maim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="1438">
+          <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
           <folding>
+            <element signature="e#0#4470#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VectorHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

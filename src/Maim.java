@@ -12,12 +12,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
+import java.util.PriorityQueue;
 
 public class Maim {
     public static void main (String args[]){
         try{
             VectorHeap<Paciente> queue = new VectorHeap<>();
-            VectorHeap_1<Paciente> queue_1 = new VectorHeap_1<>();
+            PriorityQueue<Paciente> queue_1 = new PriorityQueue<>();
             Scanner teclado = new Scanner(System.in);
     // leer el archivo de texto que contiene a los pacientes
             String sCadena;
@@ -86,7 +87,10 @@ public class Maim {
                         respuesta1 = teclado.nextLine();
                         switch (respuesta1) {
                             case "1":
-                                System.out.println("\n3" + queue.remove().toString() + "\n");
+                                System.out.println("\n3" + queue_1.remove().toString() + "\n");
+                                break;
+                            case "2":
+                                System.out.println("Hasta luego!");
                                 break;
                             default:
                                 System.out.println("Ese dato no es válido");
